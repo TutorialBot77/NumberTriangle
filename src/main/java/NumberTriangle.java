@@ -126,7 +126,6 @@ public class NumberTriangle {
         while (line != null) {
 
             // remove when done; this line is included so running starter code prints the contents of the file
-            System.out.println(line);
 
             String[] numbers = line.split("\\s+");
             curr = new NumberTriangle[numbers.length];
